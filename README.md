@@ -1,3 +1,22 @@
+This is a forked project from https://github.com/OpenDroneMap/WebODM and has been modified to show how to enable debugging for the server (django) in vscode. 
+
+See this comparison view between a change to enable this workflow vs the original WebODM project [here](https://github.com/OpenDroneMap/WebODM/compare/master...nongnoochr:WebODM:master)
+
+Specifically, here is a list of file changes that need to enable this workflow
+* [.vscode/launch.json](.vscode/launch.json)
+* [docker-compose.yml](docker-compose.yml)
+* [manage.py](manage.py)
+* [requirements.txt](requirements.txt)
+
+To see how to enable this workflow in action, see my YouTube video **[(Thai) How to debug WebODM Server in VSCode](https://youtu.be/F9m7Uvh0-TI)** (Currently, it is only available in Thai. Please let me know if you are interested in English subtitles or would like to see this video in English)
+
+**Disclaimer:**
+This change is inspired by this article: [Debugging a Containerized Django App in VS Code by J-O Eriksson](https://testdriven.io/blog/django-debugging-vs-code/)
+
+<hr />
+See below for the ORIGINAL README.md contents
+<hr />
+
 <img alt="WebODM" src="https://user-images.githubusercontent.com/1951843/34074943-8f057c3c-e287-11e7-924d-3ccafa60c43a.png" width="180">
 
 [![Build Status](https://travis-ci.org/OpenDroneMap/WebODM.svg?branch=master)](https://travis-ci.org/OpenDroneMap/WebODM) [![Translated](https://hosted.weblate.org/widgets/webodm/-/svg-badge.svg)](https://hosted.weblate.org/engage/webodm/)
